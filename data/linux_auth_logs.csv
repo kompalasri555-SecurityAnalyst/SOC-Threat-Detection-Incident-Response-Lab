@@ -1,0 +1,10 @@
+timestamp,host,service,event,user,source_ip,details
+2026-08-28T08:55:01,linux-bastion,sshd,Accepted password,m.rao,10.10.20.31,ssh
+2026-08-28T09:09:51,linux-bastion,sshd,Failed password,admin.ops,203.0.113.50,ssh
+2026-08-28T09:09:56,linux-bastion,sshd,Failed password,admin.ops,203.0.113.50,ssh
+2026-08-28T09:10:03,linux-bastion,sshd,Failed password,admin.ops,203.0.113.50,ssh
+2026-08-28T09:10:17,linux-bastion,sshd,Failed password,admin.ops,203.0.113.50,ssh
+2026-08-28T09:10:40,linux-bastion,sshd,Accepted password,admin.ops,203.0.113.50,ssh
+2026-08-28T09:14:09,linux-bastion,sudo,COMMAND,admin.ops,10.10.20.40,sudo -l [SIMULATED]
+2026-08-28T09:15:32,linux-bastion,sshd,Disconnected,admin.ops,203.0.113.50,ssh
+2026-08-28T11:04:01,linux-web01,sshd,Failed password,deploy,10.10.20.55,ssh

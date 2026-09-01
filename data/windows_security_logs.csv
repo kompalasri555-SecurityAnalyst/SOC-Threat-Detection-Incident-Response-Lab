@@ -1,1 +1,15 @@
-
+timestamp,host,event_id,status,user,source_ip,details
+2026-08-28T09:00:12,WIN-DC01,4624,Success,j.smith,10.10.20.15,Logon
+2026-08-28T09:02:31,WIN-APP01,4624,Success,svc_backup,10.10.20.25,Logon
+2026-08-28T09:10:02,WIN-DC01,4625,Failure,admin.ops,203.0.113.50,Logon
+2026-08-28T09:10:08,WIN-DC01,4625,Failure,admin.ops,203.0.113.50,Logon
+2026-08-28T09:10:14,WIN-DC01,4625,Failure,admin.ops,203.0.113.50,Logon
+2026-08-28T09:10:21,WIN-DC01,4625,Failure,admin.ops,203.0.113.50,Logon
+2026-08-28T09:10:29,WIN-DC01,4625,Failure,admin.ops,203.0.113.50,Logon
+2026-08-28T09:11:02,WIN-DC01,4624,Success,admin.ops,203.0.113.50,Logon
+2026-08-28T09:12:19,WIN-DC01,4688,Info,admin.ops,10.10.20.40,powershell.exe -enc [SIMULATED]
+2026-08-28T09:13:11,WIN-DC01,4672,Info,admin.ops,10.10.20.40,Special privileges assigned
+2026-08-28T09:20:10,WIN-DC01,4624,Success,m.rao,10.10.20.31,Logon
+2026-08-28T10:05:42,WIN-APP01,4625,Failure,j.smith,10.10.20.15,Logon
+2026-08-28T10:05:49,WIN-APP01,4624,Success,j.smith,10.10.20.15,Logon
+2026-08-28T10:22:07,WIN-DC01,4634,Info,admin.ops,10.10.20.40,Logoff
